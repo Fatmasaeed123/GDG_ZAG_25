@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+header {
+    background-color: rgb(86, 127, 141);
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid lightblue;
+    outline: 3px dotted black;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: gray;
+}
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+.follow {
+    background-color: rgb(34, 133, 166);
+    color: white;
+}
+.message {
+    background-color: #28a745;
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

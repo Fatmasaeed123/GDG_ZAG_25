@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content p {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.content img {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+/*Task2*/
+.Rectangles {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .rectangle {
+    padding: 40px 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  .red {
+    background-color:red;
+  }
+  
+  .green {
+    background-color:green;
+  }
+  
+  .blue {
+    background-color:blue;
+  }
+  
+  .yellow {
+    background-color:yellow;
+    color: black; 
+  }
+  /*Task3*/
+  .overlapping-rectangles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    gap: 20px;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .red {
+    background-color: red;
+    z-index: 1;
+  }
+  
+  .green {
+    background-color: mediumturquoise;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+  }
+  
+  .purple {
+    background-color: purple;
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+  }
+  /*Task4*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+h2 {
+    color: #444;
+    margin-top: 30px;
+}
+

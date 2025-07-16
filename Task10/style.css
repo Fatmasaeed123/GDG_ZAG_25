@@ -1,4 +1,4 @@
-/**body {
+*body {
   margin: 0;
   height: 100vh;
   background-color: #eee;
@@ -38,7 +38,7 @@
   font-size: 30px;
   z-index: 1;
   position: relative;
-}*/
+}
 /* Task2 */
 
 body {

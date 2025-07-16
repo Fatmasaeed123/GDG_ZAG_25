@@ -1,0 +1,30 @@
+/*task1*/
+div.main.red {
+  color: red;
+}
+/*task2*/
+.parent > .child:nth-of-type(2) {
+  color: red;
+}
+/*task3*/
+.parent:has(.baby:only-child) > .baby {
+  color: red;
+}
+/*task4*/
+div[title="Elzero"]:not(.no-need):not(.parent div) {
+  color: red;
+}
+/*task5*/
+div[title]:not(.no-need):not(.parent div):not(:has(*)):not(:empty) {
+  color: red;
+}
+/*task8*/
+div:not(:not(:nth-child(2))), 
+div:not(:not(:nth-child(3))), 
+p:not(:not(:nth-child(5))) {
+  color: red;
+}
+
+
+
+

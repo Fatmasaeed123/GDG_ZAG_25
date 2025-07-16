@@ -1,0 +1,65 @@
+.container{
+    text-align: center;
+    color: black;
+    padding: 30 px;
+    margin: 0 auto;
+    text-shadow: 3px 0px red , -2px -2px 2px #2d67e6 , 0 0 10px blueviolet  ;
+}
+
+/*Task 2 */ 
+ .one{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    color : black;
+    padding: 30px;
+    margin:20px;
+
+ }
+ .two{
+     text-align: center;
+    text-transform: capitalize;
+    background-color: aliceblue;
+    color : black;
+    padding: 30px;
+    margin:20px;
+
+
+ }
+ .three{
+     text-align: center;
+    text-transform: lowercase;
+    background-color: aliceblue;
+    color : black;
+    padding: 30px;
+    margin:20px;
+
+ }
+ 
+/* task 3 */
+
+
+.S1{
+background-color: rgba(250, 235, 215, 0.925);
+width: 400px;
+padding: 40px;
+margin: 20px;
+}
+.S2{ 
+background-color: rgba(250, 235, 215, 0.925);
+width: 400px;
+padding: 40px;
+white-space: nowrap;
+margin: 20px;
+overflow:hidden;
+}
+.S3{
+    background-color: rgba(250, 235, 215, 0.925);
+width: 400px;
+padding: 40px;
+margin: 20px;
+     white-space: nowrap;
+     overflow: hidden;
+ text-overflow: ellipsis;
+}
+ 
